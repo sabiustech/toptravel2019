@@ -1,0 +1,63 @@
+/* CSS files add styling rules to your content */
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Stylish');
+
+body {
+  font-family: 'Stylish', sans-serif;
+  text-align: left;
+}
+
+h1 {
+ font-family: 'Dancing Script', cursive;
+ color: rgb(27, 90, 198);
+ margin: 10px;
+ text-align: center;
+}
+
+h3 {
+ font-family: 'Stylish', sans-serif;
+ color: rgb(43, 154, 175);
+ text-align: center;
+}
+
+.nav-wrapper {
+  background-color: rgb(27, 90, 198);
+  
+}
+
+.container {
+  
+  display: flex;
+  
+}
+.card .card-image .card-title {
+  color: rgb(255, 200, 255);
+  height: 35%;
+}
+
+.cardHolder{
+  display:flex;
+  flex-flow: row wrap;
+}
+
+.card-title {
+  background-color: rgba(43, 154, 175,0.4);
+}
+
+.card-content {
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+footer {
+  margin-top: 75;
+  font-weight: 200;
+}
+
+.page-footer {
+    background-color: rgb(27, 90, 198);
+}
+
